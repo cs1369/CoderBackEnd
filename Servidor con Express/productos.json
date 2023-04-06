@@ -1,0 +1,29 @@
+[
+	{
+		"title": "Mouse",
+		"description": "Nueva Mouse",
+		"precio": "1850.50",
+		"thumpnail": "img",
+		"code": "5e23",
+		"stock": 84,
+		"id": 1
+	},
+	{
+		"title": "Computadora",
+		"description": "Nueva PC",
+		"precio": "22850.50",
+		"thumpnail": "img",
+		"code": "5e24",
+		"stock": 85,
+		"id": 2
+	},
+	{
+		"title": "Teclado",
+		"description": "nuevo taclado",
+		"precio": "1550.50",
+		"thumpnail": "img",
+		"code": "5e26",
+		"stock": 86,
+		"id": 3
+	}
+]
