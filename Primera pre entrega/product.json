@@ -1,0 +1,82 @@
+[
+	{
+		"title": "Compu",
+		"description": "Pc",
+		"code": "PC",
+		"price": 500,
+		"status": true,
+		"stock": 0,
+		"category": "Gam",
+		"thumbnails": [
+			"localhost",
+			"localhost",
+			"localhost",
+			"localhost"
+		],
+		"id": 1
+	},
+	{
+		"title": "Comp",
+		"description": "Pc",
+		"code": "PC",
+		"price": 500,
+		"status": true,
+		"stock": 0,
+		"category": "Gam",
+		"thumbnails": [
+			"localhost",
+			"localhost",
+			"localhost",
+			"localhost"
+		],
+		"id": 2
+	},
+	{
+		"title": "Com",
+		"description": "Pc",
+		"code": "PC",
+		"price": 500,
+		"status": true,
+		"stock": 0,
+		"category": "Gam",
+		"thumbnails": [
+			"localhost",
+			"localhost",
+			"localhost",
+			"localhost"
+		],
+		"id": 3
+	},
+	{
+		"title": "Co",
+		"description": "Pc",
+		"code": "PC",
+		"price": 500,
+		"status": true,
+		"stock": 0,
+		"category": "Gam",
+		"thumbnails": [
+			"localhost",
+			"localhost",
+			"localhost",
+			"localhost"
+		],
+		"id": 4
+	},
+	{
+		"title": "C",
+		"description": "Pc",
+		"code": "PC",
+		"price": 500,
+		"status": true,
+		"stock": 0,
+		"category": "Gam",
+		"thumbnails": [
+			"localhost",
+			"localhost",
+			"localhost",
+			"localhost"
+		],
+		"id": 5
+	}
+]
