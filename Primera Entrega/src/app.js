@@ -35,6 +35,8 @@ socketServerIO.on('connection',socket=>{
     console.log('Usuario conectado');
 });
 
+
+
 app.use('/api/product',productRouter);
 app.use('/api/carts',cartRouter);
 app.use('/',viewsRouter);

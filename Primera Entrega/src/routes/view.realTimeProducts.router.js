@@ -6,6 +6,12 @@ const router = Router();
 const product = new ProductManager();
 
 
+router.get('/',async(req,res)=>{
+    
+    res.render('realTimeProducts');
+});
+
+
 router.post('/',async(req,res)=>{
     
     res.render('realTimeProducts');

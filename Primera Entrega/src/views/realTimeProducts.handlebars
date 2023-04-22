@@ -1,5 +1,5 @@
 <div style="width: 50%; border: 1px solid; padding:1rem; margin: 1rem; border-radius: 1rem;">
-    <form class="row g-3" method="post" >
+    <form class="row g-3" >
   <div class="col-md-6">
     <label for="title" class="form-label">Title</label>
     <input type="text" class="form-control" id="title">
@@ -28,7 +28,9 @@
     <label for="thumbnails" class="form-label">Thumbnails</label>
     <input type="file" class="form-control" id="thumbnails">
   </div>  
-    <button type="submit" class="btn btn-primary">Cargar</button>
+    <button type="submit" class="btn btn-primary" id="btnCargar">Cargar</button>
   </div>
 </form>
 </div>
+<script src="/public/js/realTimeProducts.js"></script>
+<script src="/socket.io/socket.io.js"></script>
