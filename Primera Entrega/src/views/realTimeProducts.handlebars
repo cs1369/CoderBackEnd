@@ -1,36 +1,36 @@
 <div style="width: 50%; border: 1px solid; padding:1rem; margin: 1rem; border-radius: 1rem;">
-    <form class="row g-3" >
+    <form class="row g-3" method="post" action="/api/product" enctype="multipart/form-data">
   <div class="col-md-6">
     <label for="title" class="form-label">Title</label>
-    <input type="text" class="form-control" id="title">
+    <input type="text" class="form-control" name="title">
   </div>
   <div class="col-md-6">
     <label for="description" class="form-label">Description</label>
-    <input type="text" class="form-control" id="description">
+    <input type="text" class="form-control" name="description">
   </div>
   <div class="col-md-6">
     <label for="code" class="form-label">Code</label>
-    <input type="text" class="form-control" id="code">
+    <input type="text" class="form-control" name="code">
   </div>
   <div class="col-md-6">
     <label for="price" class="form-label">Price</label>
-    <input type="number" class="form-control" id="price" step="0.01">
+    <input type="number" class="form-control" name="price" step="0.01">
   </div>
   <div class="col-md-6">
     <label for="stock" class="form-label">stock</label>
-    <input type="number" class="form-control" id="stock">
+    <input type="number" class="form-control" name="stock">
   </div>
   <div class="col-md-6">
     <label for="category" class="form-label">category</label>
-    <input type="text" class="form-control" id="category">
+    <input type="text" class="form-control" name="category">
   </div>
   <div class="col-md-6">
     <label for="thumbnails" class="form-label">Thumbnails</label>
-    <input type="file" class="form-control" id="thumbnails">
+    <input type="file" class="form-control" name="thumbnail">
   </div>  
-    <button type="submit" class="btn btn-primary" id="btnCargar">Cargar</button>
+    <button type="submit" class="btn btn-primary">Cargar</button>
   </div>
 </form>
 </div>
-<script src="/public/js/realTimeProducts.js"></script>
-<script src="/socket.io/socket.io.js"></script>
+{{!-- <script src="/socket.io/socket.io.js"></script>
+<script src="/public/js/realTimeProducts.js"></script> --}}
