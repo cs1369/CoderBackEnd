@@ -8,7 +8,7 @@ const product = new ProductManager();
 
 router.get('/',async(req,res)=>{
     
-    res.render('realTimeProducts');
+    res.render('addProducts');
 });
 
 

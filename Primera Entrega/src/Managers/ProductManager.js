@@ -21,7 +21,9 @@ export default class ProductManager{
         if(products.length === 0){
             producto.id = 1;
         }else{
+            console.log(producto);
             producto.id= products[products.length-1].id+1;
+            
         }
         products.push(producto);
         await fs.promises.writeFile(this.path,JSON.stringify(products,null,'\t'));

@@ -1,59 +1,13 @@
 [
 	{
-		"title": "Compu",
-		"description": "Pc",
-		"code": "PC",
-		"price": 500,
+		"title": "Mouse",
+		"description": "Mouse Gamer",
+		"code": "M1",
+		"price": "12345.5",
 		"status": true,
-		"stock": 0,
-		"category": "Gam",
-		"thumbnails": [
-			"localhost",
-			"localhost",
-			"localhost",
-			"localhost"
-		],
+		"stock": "10",
+		"category": "Gamer",
+		"thumbnails": "http://localhost:8080/img/1683168273345-Mouse.jpg",
 		"id": 1
-	},
-	{
-		"title": "Compu",
-		"description": "Pc",
-		"code": "PC",
-		"price": 500,
-		"status": true,
-		"stock": 0,
-		"category": "Gam",
-		"thumbnails": [
-			"localhost",
-			"localhost"
-		],
-		"id": 2
-	},
-	{
-		"title": "Co",
-		"description": "Pc",
-		"code": "PC",
-		"price": 500,
-		"status": true,
-		"stock": 0,
-		"category": "Gam",
-		"thumbnails": [
-			"localhost",
-			"localhost"
-		],
-		"id": 3
-	},
-	{
-		"title": "Cossssss",
-		"description": "Pc",
-		"code": "PC",
-		"price": 500,
-		"status": true,
-		"stock": 0,
-		"category": "Gam",
-		"thumbnails": [
-			"localhost"
-		],
-		"id": 4
 	}
 ]
