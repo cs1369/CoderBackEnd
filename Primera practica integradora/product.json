@@ -1,0 +1,13 @@
+[
+	{
+		"title": "Mouse",
+		"description": "Mouse Gamer",
+		"code": "M1",
+		"price": "12345.5",
+		"status": true,
+		"stock": "10",
+		"category": "Gamer",
+		"thumbnails": "http://localhost:8080/img/1683168273345-Mouse.jpg",
+		"id": 1
+	}
+]

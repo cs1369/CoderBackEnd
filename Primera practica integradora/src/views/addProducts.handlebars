@@ -1,0 +1,38 @@
+<div style="width: 50%; border: 1px solid; padding:1rem; margin: 1rem; border-radius: 1rem;">
+    <form class="row g-3" id="form" method="post" action="/api/product" enctype="multipart/form-data">
+  <div class="col-md-6">
+    <label for="title" class="form-label">Title</label>
+    <input type="text" class="form-control" name="title"  id="title">
+  </div>
+  <div class="col-md-6">
+    <label for="description" class="form-label">Description</label>
+    <input type="text" class="form-control" name="description" id="description">
+  </div>
+  <div class="col-md-6">
+    <label for="code" class="form-label">Code</label>
+    <input type="text" class="form-control" name="code" id="code">
+  </div>
+  <div class="col-md-6">
+    <label for="price" class="form-label">Price</label>
+    <input type="number" class="form-control" name="price" step="0.01" id="price">
+  </div>
+  <div class="col-md-6">
+    <label for="stock" class="form-label">stock</label>
+    <input type="number" class="form-control" name="stock" id="stock">
+  </div>
+  <div class="col-md-6">
+    <label for="category" class="form-label">category</label>
+    <input type="text" class="form-control" name="category" id="category">
+  </div>
+  <div class="col-md-6">
+    <label for="thumbnails" class="form-label">Thumbnails</label>
+    <input type="file" class="form-control" name="thumbnail" id="thumbnail">
+  </div>  
+    <button type="submit" class="btn btn-primary" id="Cargar">Cargar</button>
+  </div>
+</form>
+</div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/addProduct.js"></script>
+
+
